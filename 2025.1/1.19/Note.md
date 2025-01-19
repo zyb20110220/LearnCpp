@@ -83,20 +83,17 @@ int main()
 
 ```cpp
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main()
 {
-	string emojis[] = {
-		"(〃'▽'〃^)",
-		"(￣▽￣ ?/)",
-		"(* ^▽^ * )",
-		"(ᇂ  _ᇂ  |||)"};
-	for (const auto &emoji : emojis)
+	for (int i = 1; i < 5; i++)
 	{
-		cout << " __^___^_" << endl;
-		cout << emoji << endl;
+		for (int j = 0; j < i; j++)
+		{
+			cout << "*";
+		}
+		cout << "\n";
 	}
 	return 0;
 }
@@ -105,12 +102,8 @@ int main()
 #### 输出效果:
 
 ```
- __^___^_
-(〃'▽'〃^)
- __^___^_
-(￣▽￣ ?/)
- __^___^_
-(* ^▽^ * )
- __^___^_
-(ᇂ_ᇂ|||)
+*
+**
+***
+****
 ```
