@@ -83,18 +83,13 @@ int main()
 
 ```cpp
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
 	for (int i = 1; i < 5; i++)
-	{
-		for (int j = 0; j < i; j++)
-		{
-			cout << "*";
-		}
-		cout << "\n";
-	}
+		cout << string(i, '*') << '\n';
 	return 0;
 }
 ```
