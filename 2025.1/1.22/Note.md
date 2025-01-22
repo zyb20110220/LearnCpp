@@ -22,3 +22,10 @@ cout << a / b; // a / b的值为int型
 int a, b;
 cout << a % b;
 ```
+
+### 小数
+
+```cpp
+double (双精度)
+float (单精度)
+```
