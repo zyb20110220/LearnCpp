@@ -5,7 +5,6 @@ int main()
 {
 	int n;
 	cin >> n;
-	char c = n;
-	cout << c << endl;
+	cout << static_cast<char>(n) << endl;
 	return 0;
 }
