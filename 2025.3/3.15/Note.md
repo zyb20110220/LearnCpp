@@ -9,10 +9,10 @@ switch(值/表达式) {
 	case 常量1: 
 		语句块1; 
 		break;
-	case 常量2;
+	case 常量2:
 		语句块2;
 		break;
-	case 常量3;
+	case 常量3:
 		语句块3;
 		break; // 防止程序运行不相干的代码
 	...
